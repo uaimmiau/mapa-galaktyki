@@ -1,0 +1,290 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #444;
+    font-family: sans-serif;
+}
+
+#logo
+{
+    width: 260px;
+    padding: 20px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+#cont1
+{
+    width: 790px;
+    height: 1060px;
+    display: flex;
+}
+#cont2
+{
+    width: 300px;
+}
+#container
+{
+    width: 1090px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+}
+#opisy_div
+{
+    width: 220px;
+    height: 180px;
+    border: 1px solid #FFE127;
+    margin: 20px;
+    margin-top: 0;
+    padding: 20px;
+    background-color: black;
+}
+.opis
+{
+    display: none;
+}
+.opis h1,p
+{
+    color: #FFE127;
+}
+
+.hex
+{
+    background-image: url("img/hex_fill.png");
+}
+.hex:hover
+{
+    background-image: none;
+}
+.column
+{
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* float: left; */
+}
+.column_e
+{
+    top: 20px;
+}
+
+.pojemniczek
+{
+    width: 40px;
+    height: 40px;
+}
+.sektor
+{
+    font-size: 8px;
+    left: 13px;
+    color: #FFE127;
+    position: relative;
+    display: block;
+    /* display: none; */
+    bottom: 39px;
+}
+.numer1
+{
+    font-size: 15px;
+    position: relative;
+    color: #ffffff;
+    display: block;
+    bottom: 40px;
+    left: 13px;
+}
+.numer
+{
+    font-size: 15px;
+    position: relative;
+    color: #ffffff;
+    display: block;
+    bottom: 40px;
+    left: 16px;
+}
+/* .pojemniczek:hover .sektor
+{
+    display: block;
+} */
+#legenda
+{
+    width: 300px;
+}
+.wiersz_legendy
+{
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 7px;
+    display: flex;
+    align-items: center;
+    color: #FFE127;
+}
+.wiersz_legendy a
+{
+    margin-left: 10px;
+}
+
+
+
+/* KPP */
+#coruscant,#mualiv,#aquila,#csilla,#bellorum,#karov,#kirov,#yavin4
+{
+    background-image: url(img/KPP_fill.png);
+}
+/* ZS */
+#abos,#lapitera,#yenzurus
+{
+    background-image: url(img/ZS_fill.png);
+}
+/* Sith */
+#muunilinst,#ceshan,#lankosta,#polin,#aquaparkia2,#phaalia,#ozajasz3
+{
+    background-image: url(img/Sith_fill.png);
+}
+/* DUP */
+#teapra,#saerus,#brentaal,#skarpeton,#ozillon,#epheron
+{
+    background-image: url(img/DUP_fill.png);
+}
+/* Ententa */
+#garth,#holcea,#nal-hutta
+{
+    background-image: url(img/Ententa_fill.png);
+}
+/* TFR aka achtunki*/
+#concordia
+{
+    background-image: url(img/TFR_fill.png);
+}
+/* FWM */
+#mandalora
+{
+    background-image: url(img/FWM_fill.png);
+}
+/* Dagua */
+#dagua,#galmoth
+{
+    background-image: url(img/Dagua_fill.png);
+}
+/* Z dech */
+#odenus,#nar-shaddaa
+{
+    background-image: url(img/kaboom_fill.png);
+}
+#smutek
+{
+    background-image: url(img/u02_fill.png);
+}
+
+
+
+
+/* Upośledzony brute force */
+#col2
+{
+    right: 10px;
+}
+#col3
+{
+    right: 20px;
+}
+#col4
+{
+    right: 30px;
+}
+#col5
+{
+    right: 40px;
+}
+#col6
+{
+    right: 50px;
+}
+#col7
+{
+    right: 60px;
+}
+#col8
+{
+    right: 70px;
+}
+#col9
+{
+    right: 80px;
+}
+#col10
+{
+    right: 90px;
+}
+#col11
+{
+    right: 100px;
+}
+#col12
+{
+    right: 110px;
+}
+#col13
+{
+    right: 120px;
+}
+#col14
+{
+    right: 130px;
+}
+#col15
+{
+    right: 140px;
+}
+#col16
+{
+    right: 150px;
+}
+#col17
+{
+    right: 160px;
+}
+#col18
+{
+    right: 170px;
+}
+#col19
+{
+    right: 180px;
+}
+#col20
+{
+    right: 190px;
+}
+#col21
+{
+    bottom: 1060px;
+    left: 30px;
+}
+#col22
+{
+    bottom: 2080px;
+    left: 60px;
+}
+#col23
+{
+    bottom: 3140px;
+    left: 90px;
+}
+#col24
+{
+    bottom: 4160px;
+    left: 120px;
+}
+#col25
+{
+    bottom: 5220px;
+    left: 150px;
+}
+#col26
+{
+    bottom: 6240px;
+    left: 180px;
+}
