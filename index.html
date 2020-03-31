@@ -2835,7 +2835,9 @@
                 <div class="opis" id="opis81"><h1>Lapitera</h1><p>Producent paliw i energii</p><p>Zjednoczony Sojusz</p><p>PG: 5 &emsp; PM: 2 &emsp; Obr: 3</p></div>
                 <div class="opis" id="opis82"><h1>Yenzurus</h1><p>Zindustrializowana</p><p>Zjednoczony Sojusz</p><p>PG: 3 &emsp; PM: 4 &emsp; Obr: 5</p></div> 
                 <div class="opis" id="opis90"><h1>Dagua</h1><p>Zurbanizowana</p><p>Imperium Sithów</p><p>PG: 4 &emsp; PM: 3 &emsp; Obr: 2</p></div>
-                <div class="opis" id="opis91"><h1>Galmoth</h1><p>Ufortyfikowana</p><p>Imperium Sithów</p><p>PG: 1 &emsp; PM: 1 &emsp; Obr: 4</p></div> 
+                <div class="opis" id="opis91"><h1>Galmoth</h1><p>Ufortyfikowana</p><p>Imperium Sithów</p><p>PG: 1 &emsp; PM: 1 &emsp; Obr: 4</p></div>
+                <div class="opis" id="opis_ns"><h1>Tu była Nar-Shaddaa</h1><p>Nar-Shaddyy już z nami nie ma</p><p>Miała piękny pogrzeb</p></div> 
+                <div class="opis" id="opis_od"><h1>Tu była Omni/Odenus</h1><p>Został Maduk</p></div> 
             </div>
             <div id="legenda">
                 <div class="wiersz_legendy">
@@ -2909,6 +2911,8 @@
         const opis82 = document.getElementById('yenzurus')
         const opis90 = document.getElementById('dagua')
         const opis91 = document.getElementById('galmoth')
+        const opis_ns = document.getElementById('nar-shaddaa')
+        const opis_od = document.getElementById('odenus')
 
         opis1.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis1').style.display = "block";});
         opis2.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis2').style.display = "block";});
@@ -2941,6 +2945,8 @@
         opis82.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis82').style.display = "block";});
         opis90.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis90').style.display = "block";});
         opis91.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis91').style.display = "block";});
+        opis_ns.addEventListener('mouseenter',e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis_ns').style.display = "block";});
+        opis_od.addEventListener('mouseenter',e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis_od').style.display = "block";});
         
         
     </script>
