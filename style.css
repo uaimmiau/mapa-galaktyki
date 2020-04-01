@@ -2,7 +2,7 @@ body
 {
     margin: 0px;
     padding: 0px;
-    background-color: #444;
+    background-color: #111;
     font-family: sans-serif;
 }
 
@@ -19,6 +19,7 @@ body
     width: 790px;
     height: 1060px;
     display: flex;
+    background-image: url(img/tlo.png);
 }
 #cont2
 {
@@ -30,6 +31,7 @@ body
     margin-right: auto;
     margin-left: auto;
     display: flex;
+    margin-top: 20px;
 
 }
 #opisy_div
@@ -50,11 +52,15 @@ body
 {
     color: #FFE127;
 }
+#stopka p
+{
+    font-style: 10px;
+}
 
-.hex
+/* .hex
 {
     background-image: url("img/hex_fill.png");
-}
+} */
 .hex:hover
 {
     background-image: none;
