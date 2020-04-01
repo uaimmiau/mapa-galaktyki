@@ -12,6 +12,7 @@ body
     padding: 20px;
     padding-left: 10px;
     padding-top: 30px;
+    margin: auto;
 }
 #cont1
 {
@@ -21,11 +22,11 @@ body
 }
 #cont2
 {
-    width: 300px;
+    width: 400px;
 }
 #container
 {
-    width: 1090px;
+    width: 1190px;
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -33,8 +34,8 @@ body
 }
 #opisy_div
 {
-    width: 220px;
-    min-height: 180px;
+    width: 320px;
+    min-height: 220px;
     border: 1px solid #FFE127;
     margin: 20px;
     margin-top: 0;
@@ -125,7 +126,10 @@ body
 {
     margin-left: 10px;
 }
-
+#ppe_leg
+{
+    margin-top: 20px;
+}
 
 
 /* KPP */
