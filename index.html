@@ -1011,7 +1011,7 @@
                     <a class="sektor">J08</a>
                 </div>
                 <div class="pojemniczek">
-                    <img src="img/hex.png" alt="test" class="hex ist kpp" id="yavin4">
+                    <img src="img/hex.png" alt="test" class="hex fort kpp" id="yavin4">
                     <a class="sektor">J09</a>
                     <a class="numer1">20</a>
                 </div>
@@ -1458,7 +1458,7 @@
                     <a class="sektor">N12</a>
                 </div>
                 <div class="pojemniczek">
-                    <img src="img/hex.png" alt="test" class="hex ist kpp" id="coruscant">
+                    <img src="img/hex.png" alt="test" class="hex urbn kpp" id="coruscant">
                     <a class="sektor">N13</a>
                     <a class="numer">1</a>
                 </div>
@@ -2872,32 +2872,32 @@
                     <img src="img/Dagua_fill.png" alt="test">
                     <a>Dagua</a>
                 </div> -->
-                <div class="wiersz_legendy" id="ppe_leg">
-                    <img src="img/Fuel_fill.png" alt="test">
+                <div class="wiersz_legendy" >
+                    <img src="img/Fuel_fill.png" alt="test" id="ppe_leg">
                     <a>Producent paliw i energii</a>
                 </div>
-                <div class="wiersz_legendy" id="zin_leg">
-                    <img src="img/Industrial_fill.png" alt="test">
+                <div class="wiersz_legendy" >
+                    <img src="img/Industrial_fill.png" alt="test" id="zin_leg">
                     <a>Zindustrializowana</a>
                 </div>
-                <div class="wiersz_legendy" id="ch_leg">
-                    <img src="img/Handel_fill.png" alt="test">
+                <div class="wiersz_legendy" >
+                    <img src="img/Handel_fill.png" alt="test" id="ch_leg">
                     <a>Centrum Handlu</a>
                 </div>
-                <div class="wiersz_legendy" id="urbn_leg">
-                    <img src="img/Urban_fill.png" alt="test">
+                <div class="wiersz_legendy" >
+                    <img src="img/Urban_fill.png" alt="test" id="urbn_leg">
                     <a>Zurbanizowana</a>
                 </div>
-                <div class="wiersz_legendy" id="ist_leg">
+                <!-- <div class="wiersz_legendy" id="ist_leg">
                     <img src="img/Istotne_fill.png" alt="test">
                     <a>Istotana regionalnie i fabularnie</a>
-                </div>
-                <div class="wiersz_legendy" id="fort_leg">
-                    <img src="img/Fort_fill.png" alt="test">
+                </div> -->
+                <div class="wiersz_legendy" >
+                    <img src="img/Fort_fill.png" alt="test" id="fort_leg">
                     <a>Ufortyfikowana</a>
                 </div>
-                <div class="wiersz_legendy" id="clear_leg">
-                    <img src="img/hex.png" alt="test">
+                <div class="wiersz_legendy" >
+                    <img src="img/hex.png" alt="test" id="clear_leg">
                     <a>Wyczyść</a>
                 </div>
             </div>
@@ -3015,13 +3015,13 @@
         zin.addEventListener('mouseenter', e=> {for(var i=0;i<zin_lenght;i++){tab_zin[i].style.backgroundImage = "url(img/Industrial_fill.png)";}});
         ch.addEventListener('mouseenter', e=> {for(var i=0;i<ch_lenght;i++){tab_ch[i].style.backgroundImage = "url(img/Handel_fill.png)";}});
         urbn.addEventListener('mouseenter', e=> {for(var i=0;i<urbn_lenght;i++){tab_urbn[i].style.backgroundImage = "url(img/Urban_fill.png)";}});
-        ist.addEventListener('mouseenter', e=> {for(var i=0;i<ist_lenght;i++){tab_ist[i].style.backgroundImage = "url(img/Istotne_fill.png)";}});
+        // ist.addEventListener('mouseenter', e=> {for(var i=0;i<ist_lenght;i++){tab_ist[i].style.backgroundImage = "url(img/Istotne_fill.png)";}});
         fort.addEventListener('mouseenter', e=> {for(var i=0;i<fort_lenght;i++){tab_fort[i].style.backgroundImage = "url(img/Fort_fill.png)";}});
         clear.addEventListener('mouseenter', e=> {for(var i=0;i<ppe_lenght;i++){tab_ppe[i].style.backgroundImage = "url(none)";}
         for(var i=0;i<zin_lenght;i++){tab_zin[i].style.backgroundImage = "url(none)";}
         for(var i=0;i<ch_lenght;i++){tab_ch[i].style.backgroundImage = "url(none)";}
         for(var i=0;i<urbn_lenght;i++){tab_urbn[i].style.backgroundImage = "url(none)";}
-        for(var i=0;i<ist_lenght;i++){tab_ist[i].style.backgroundImage = "url(none)";}
+        // for(var i=0;i<ist_lenght;i++){tab_ist[i].style.backgroundImage = "url(none)";}
         for(var i=0;i<fort_lenght;i++){tab_fort[i].style.backgroundImage = "url(none)";}
         for(var i=0;i<kpp_lenght;i++){tab_kpp[i].style.backgroundImage = "url(img/KPP_fill.png)";}
         for(var i=0;i<zs_lenght;i++){tab_zs[i].style.backgroundImage = "url(img/ZS_fill.png)";}
