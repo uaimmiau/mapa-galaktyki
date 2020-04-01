@@ -2837,7 +2837,8 @@
                 <div class="opis" id="opis90"><h1>Dagua</h1><p>Zurbanizowana</p><p>Imperium Sithów</p><p>PG: 4 &emsp; PM: 3 &emsp; Obr: 2</p></div>
                 <div class="opis" id="opis91"><h1>Galmoth</h1><p>Ufortyfikowana</p><p>Imperium Sithów</p><p>PG: 1 &emsp; PM: 1 &emsp; Obr: 4</p></div>
                 <div class="opis" id="opis_ns"><h1>Tu była Nar-Shaddaa</h1><p>Nar-Shaddyy już z nami nie ma</p><p>Miała piękny pogrzeb</p></div> 
-                <div class="opis" id="opis_od"><h1>Tu była Omni/Odenus</h1><p>Został Maduk</p></div> 
+                <div class="opis" id="opis_od"><h1>Tu była Omni/Odenus</h1><p>Został Maduk</p></div>
+                <div class="opis" id="opis30"><h1>Kokura</h1><p>Ufortyfikowana</p><p>Imperium z dech</p><p>Właściciel też z dech</p><p>PG: 0 &emsp; PM: 0 &emsp; Obr: 0</p></div> 
             </div>
             <div id="legenda">
                 <div class="wiersz_legendy">
@@ -2976,40 +2977,43 @@
         const opis91 = document.getElementById('galmoth')
         const opis_ns = document.getElementById('nar-shaddaa')
         const opis_od = document.getElementById('odenus')
+        const opis30 = document.getElementById('kokura')
+        
 
-        opis1.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis1').style.display = "block";});
-        opis2.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis2').style.display = "block";});
-        opis3.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis3').style.display = "block";});
-        opis4.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis4').style.display = "block";});
-        opis6.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis6').style.display = "block";});
-        opis7.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis7').style.display = "block";});
-        opis9.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis9').style.display = "block";});
-        opis11.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis11').style.display = "block";});
-        opis20.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis20').style.display = "block";});
-        opis21.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis21').style.display = "block";});
-        opis22.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis22').style.display = "block";});
-        opis23.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis23').style.display = "block";});
-        opis24.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis24').style.display = "block";});
-        opis25.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis25').style.display = "block";});
-        opis26.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis26').style.display = "block";});
-        opis27.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis27').style.display = "block";});
-        opis28.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis28').style.display = "block";});
-        opis31.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis31').style.display = "block";});
-        opis32.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis32').style.display = "block";});
-        opis34.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis34').style.display = "block";});
-        opis35.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis35').style.display = "block";});
-        opis37.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis37').style.display = "block";});
-        opis38.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis38').style.display = "block";});
-        opis39.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis39').style.display = "block";});
-        opis40.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis40').style.display = "block";});
-        opis70.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis70').style.display = "block";});
-        opis80.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis80').style.display = "block";});
-        opis81.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis81').style.display = "block";});
-        opis82.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis82').style.display = "block";});
-        opis90.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis90').style.display = "block";});
-        opis91.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis91').style.display = "block";});
-        opis_ns.addEventListener('mouseenter',e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis_ns').style.display = "block";});
-        opis_od.addEventListener('mouseenter',e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis_od').style.display = "block";});
+        opis1.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis1').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis2.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis2').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis3.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis3').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis4.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis4').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis6.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis6').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis7.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis7').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis9.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis9').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis11.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis11').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis20.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis20').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis21.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis21').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis22.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis22').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis23.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis23').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis24.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis24').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis25.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis25').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis26.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis26').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis27.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis27').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis28.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis28').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis31.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis31').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis32.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis32').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis34.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis34').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis35.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis35').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis37.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis37').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis38.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis38').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis39.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis39').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis40.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis40').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis70.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis70').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis80.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis80').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis81.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis81').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis82.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis82').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis90.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis90').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis91.addEventListener('mouseenter', e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis91').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis_ns.addEventListener('mouseenter',e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis_ns').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis_od.addEventListener('mouseenter',e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis_od').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(none)";});
+        opis30.addEventListener('mouseenter',e => {for(var i=0; i<tab_lenght;i++){tab_opisow[i].style.display = "none";}document.getElementById('opis30').style.display = "block";document.getElementById('opisy_div').style.backgroundImage = "url(img/planetyzdech/Kokura_bg.png)";});
         
         ppe.addEventListener('mouseenter', e=> {for(var i=0;i<ppe_lenght;i++){tab_ppe[i].style.backgroundImage = "url(img/Fuel_fill.png)";}});
         zin.addEventListener('mouseenter', e=> {for(var i=0;i<zin_lenght;i++){tab_zin[i].style.backgroundImage = "url(img/Industrial_fill.png)";}});
@@ -3031,7 +3035,7 @@
         for(var i=0;i<tfr_lenght;i++){tab_tfr[i].style.backgroundImage = "url(img/TFR_fill.png)";}
         for(var i=0;i<fwm_lenght;i++){tab_fwm[i].style.backgroundImage = "url(img/FWM_fill.png)";}
         });
-        //test
+        
     </script>
 </body>
 </html>
