@@ -56,7 +56,24 @@ body
 {
     font-style: 10px;
 }
-
+#stopka
+{
+    display: flex;
+    justify-content: space-between;
+}
+#bg_change_div
+{
+    display: flex;
+}
+#bg_change_div p
+{
+    margin-right: 20px;
+}
+#bg_change_div p:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
 /* .hex
 {
     background-image: url("img/hex_fill.png");
@@ -139,7 +156,7 @@ body
 
 
 /* KPP */
-#coruscant,#mualiv,#aquila,#csilla,#bellorum,#karov,#kirov,#yavin4
+#coruscant,#mualiv,#aquila,#csilla,#bellorum,#karov,#kirov,#yavin4,#garth,#holcea,#nal-hutta
 {
     background-image: url(img/KPP_fill.png);
 }
@@ -158,11 +175,11 @@ body
 {
     background-image: url(img/DUP_fill.png);
 }
-/* Ententa */
+/* Ententa
 #garth,#holcea,#nal-hutta
 {
     background-image: url(img/Ententa_fill.png);
-}
+} */
 /* TFR aka achtunki*/
 #concordia
 {
