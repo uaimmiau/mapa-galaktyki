@@ -2948,8 +2948,40 @@
         var tfr_lenght=tab_tfr.length;
         var tab_fwm=document.getElementsByClassName('fwm')
         var fwm_lenght=tab_fwm.length;
-        // document.getElementById('bg_black').onclick = changeBackground();
-        // document.getElementById('bg_galaxy').onclick = changeBackground();
+        var tab_all=document.getElementsByClassName('hex')
+        var all_lenght=tab_all.length;
+        document.getElementById('bg_black').onclick = changeBackground1;
+        document.getElementById('bg_galaxy').onclick = changeBackground2;
+        function changeBackground1()
+        {
+            for(var i=0;i<all_lenght;i++){tab_all[i].style.backgroundImage="url(img/hex_fill.png)";}
+            for(var i=0;i<kpp_lenght;i++){tab_kpp[i].style.backgroundImage = "url(img/KPP_fill.png)";}
+            for(var i=0;i<zs_lenght;i++){tab_zs[i].style.backgroundImage = "url(img/ZS_Sith_fill.png)";}
+            for(var i=0;i<sith_lenght;i++){tab_sith[i].style.backgroundImage = "url(img/Sith_fill.png)";}
+            for(var i=0;i<dup_lenght;i++){tab_dup[i].style.backgroundImage = "url(img/DUP_fill.png)";}
+            for(var i=0;i<tfr_lenght;i++){tab_tfr[i].style.backgroundImage = "url(img/TFR_fill.png)";}
+            for(var i=0;i<fwm_lenght;i++){tab_fwm[i].style.backgroundImage = "url(img/FWM_fill.png)";}
+            // Easter eggi:
+            document.getElementById('kokura').style.backgroundImage = "url(img/planetyzdech/Kokura_b.png";
+            document.getElementById('odenus').style.backgroundImage = "url(img/kaboom_b_fill.png";
+            document.getElementById('nar-shaddaa').style.backgroundImage = "url(img/kaboom_b_fill.png";
+            document.getElementById('smutek').style.backgroundImage = "url(img/u02_b_fill.png";
+        }
+        function changeBackground2()
+        {
+            for(var i=0;i<all_lenght;i++){tab_all[i].style.backgroundImage="url(none)";}
+            for(var i=0;i<kpp_lenght;i++){tab_kpp[i].style.backgroundImage = "url(img/KPP_fill.png)";}
+            for(var i=0;i<zs_lenght;i++){tab_zs[i].style.backgroundImage = "url(img/ZS_Sith_fill.png)";}
+            for(var i=0;i<sith_lenght;i++){tab_sith[i].style.backgroundImage = "url(img/Sith_fill.png)";}
+            for(var i=0;i<dup_lenght;i++){tab_dup[i].style.backgroundImage = "url(img/DUP_fill.png)";}
+            for(var i=0;i<tfr_lenght;i++){tab_tfr[i].style.backgroundImage = "url(img/TFR_fill.png)";}
+            for(var i=0;i<fwm_lenght;i++){tab_fwm[i].style.backgroundImage = "url(img/FWM_fill.png)";}
+            // Easter eggi:
+            document.getElementById('kokura').style.backgroundImage = "url(img/planetyzdech/Kokura.png";
+            document.getElementById('odenus').style.backgroundImage = "url(img/kaboom_fill.png";
+            document.getElementById('nar-shaddaa').style.backgroundImage = "url(img/kaboom_fill.png";
+            document.getElementById('smutek').style.backgroundImage = "url(img/u02_fill.png";
+        }
 
         const ppe = document.getElementById('ppe_leg')
         const zin = document.getElementById('zin_leg')
